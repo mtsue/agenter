@@ -13,7 +13,7 @@ function createWindow(){
     });
 
     mainWindow.loadURL(url.format({
-        pathname: path.resolve('index.html'),
+        pathname: path.resolve('public', 'index.html'),
         protocol: 'file',
         slashes: true
     }));
