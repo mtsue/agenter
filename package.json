@@ -1,0 +1,23 @@
+{
+  "name": "agenter",
+  "version": "0.0.1",
+  "description": "Your agent on desktop.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mtsue/agenter.git"
+  },
+  "keywords": [
+    "agenter"
+  ],
+  "author": {
+    "name": "mtsue"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^1.7.5"
+  }
+}
