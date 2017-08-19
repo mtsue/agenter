@@ -9,7 +9,9 @@ const browserWindow = electron.BrowserWindow;
 function createWindow(){
     let mainWindow = new browserWindow({
         width: 500,
-        height: 500
+        height: 500,
+        transparent: true,
+        frame: false
     });
 
     mainWindow.loadURL(url.format({
