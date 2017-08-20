@@ -17,6 +17,8 @@ function createWindow(){
 
     mainWindow.setAlwaysOnTop(true);
 
+    // mainWindow.webContents.openDevTools();
+
     mainWindow.loadURL(url.format({
         pathname: path.resolve('views', 'index.html'),
         protocol: 'file',
