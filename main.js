@@ -15,6 +15,8 @@ function createWindow(){
         frame: false
     });
 
+    mainWindow.setAlwaysOnTop(true);
+
     mainWindow.loadURL(url.format({
         pathname: path.resolve('views', 'index.html'),
         protocol: 'file',
