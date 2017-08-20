@@ -1,4 +1,23 @@
 .agent {
+    margin-left: 320px;
+
+    position: relative;
+    /* bottom: 200px; */
+
+     animation: updown 1s linear 0s infinite alternate; 
+}
+
+@keyframes updown {
+    0% {
+        bottom: 200px;
+    }
+    100% {
+        bottom: 230px;
+    }
+}
+
+
+/* .agent {
     position: relative;
     left: 300px;
 
@@ -59,4 +78,4 @@
     100% {
         top: 35px;
     }
-}
+} */
